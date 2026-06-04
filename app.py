@@ -10,7 +10,7 @@ from datetime import datetime, timedelta
 app = Flask(__name__)
 
 # Set expiration date (31 days from now)
-EXPIRY_DATE = datetime(2024, 12, 31)  # Adjust this date as needed
+EXPIRY_DATE = datetime(2026, 7, 5)  # Adjust this date as needed
 
 SMC_HOMEPAGE = "https://www.smcinsurance.com/"
 SMC_API = "https://www.smcinsurance.com/central/centralcall/CallReqWithHeader"
